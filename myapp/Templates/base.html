@@ -28,6 +28,7 @@
        <form method="POST" action="search" class="form-inline my-2 my-lg-0">
            {% csrf_token %}
          <input style="width: 97%;float: inline-end;"name="name" class="form-control mr-sm-2 mx-4 px-4" type="search" placeholder="Search" aria-label="Search">
+         <button class="btn btn-outline-success my-2 my-sm-0 mx-4 py-1 px-4 " type="submit">Search</button>
          
         </form>
         
@@ -35,6 +36,9 @@
        
      </div>
    </nav>
+
+
+ 
    
 
 
@@ -46,9 +50,15 @@
 
     {% block content %}
 
+
+
     {% endblock %}
   </div>
+
   
+   
+  
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
